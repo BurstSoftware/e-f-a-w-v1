@@ -1,0 +1,4 @@
+Feature,Description,Example
+Stealth Kills,Player can silently eliminate enemies if undetected.,Take out guards without raising an alarm.
+Disguise System,AI reacts differently if the player wears enemy gear.,Walk past guards unnoticed if disguised.
+Body Detection,AI investigates if they find a corpse.,AI raises an alarm if they see a dead body.
