@@ -1,0 +1,9 @@
+Feature,Description,Example
+Cover System,AI moves to the nearest cover when under fire.,PMCs take cover behind debris.
+Reinforcement Calls,AI squads call nearby allies for help.,Another squad joins the fight after hearing gunfire.
+Flanking Maneuvers,AI tries to move around instead of directly engaging.,PMCs attack from the sides rather than charging.
+Tactical Retreats,AI retreats to better positions when overwhelmed.,AI falls back when outnumbered.
+Summary of Changes,Cover System – AI moves to cover when under attack.,PMCs reposition behind cover instead of standing in the open.
+Summary of Changes,Reinforcement Calls – Nearby squads join the fight when alerted.,Additional squads arrive after gunfire is detected.
+Summary of Changes,Flanking AI – AI attacks from different angles instead of rushing.,Enemies split to attack from multiple sides.
+Summary of Changes,More Dynamic Combat – AI makes smarter decisions based on the situation.,AI adapts behavior depending on threat level.
