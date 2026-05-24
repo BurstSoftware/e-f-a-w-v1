@@ -1,0 +1,11 @@
+﻿,Functionality,Description,Example Use Case
+0,Pathfinding,AI navigates terrain and obstacles efficiently.,Enemy pursues player through ruins.
+1,Combat Behavior,Determines attack patterns and strategies.,AI ambushes the player with tactics.
+2,Resource Scavenging,AI searches for and collects useful items.,NPCs gather scrap metal for crafting.
+3,Dialogue System,AI interacts with the player via scripted responses.,Traders negotiate for supplies.
+4,Faction Dynamics,AI responds to alliances and rivalries.,Raiders attack settlements over disputes.
+5,Adaptive Learning,AI adjusts difficulty based on player actions.,Enemies become smarter over time.
+6,Stealth Detection,AI reacts to sound and movement.,Guards alert others when player is near.
+7,Quest Management,"AI assigns, tracks, and updates missions.",A survivor gives the player a side quest.
+8,Survival AI,"NPCs react to hunger, thirst, and shelter needs.",AI scavengers seek water in a drought.
+9,Morality System,AI behavior changes based on ethical choices.,Friendly NPCs turn hostile if betrayed.
