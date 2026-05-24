@@ -1,0 +1,32 @@
+Category,Current Issue,Recommendation,Implementation Idea
+Combat System Improvements,AI only switches to hostile and chases the player but doesn’t have real combat behaviors.,Implement ranged combat using raycasting or projectile physics.,Use lookAt(player) for aiming and create bullet NodePaths.
+Combat System Improvements,AI only switches to hostile and chases the player but doesn’t have real combat behaviors.,Add an accuracy system where AI improves aim over time.,Track shot count and dynamically reduce spread values.
+Combat System Improvements,AI only switches to hostile and chases the player but doesn’t have real combat behaviors.,Implement melee combat for close-range encounters.,Trigger melee attacks when AI is within melee range.
+Combat System Improvements,AI only switches to hostile and chases the player but doesn’t have real combat behaviors.,Add cover and tactical movement.,Use raycasting and getDistance() to locate nearby cover.
+Combat System Improvements,AI only switches to hostile and chases the player but doesn’t have real combat behaviors.,Implement flanking behavior instead of direct charges.,Offset AI movement positions to attack from the sides.
+Advanced Enemy Detection & Stealth,"AI only detects the player based on proximity, making stealth ineffective.",Add line-of-sight checks for visibility.,Use collision rays or Bullet physics to detect obstacles.
+Advanced Enemy Detection & Stealth,"AI only detects the player based on proximity, making stealth ineffective.",Implement noise-based detection.,Increase detection radius when player runs or shoots.
+Advanced Enemy Detection & Stealth,"AI only detects the player based on proximity, making stealth ineffective.",Add crouching to reduce noise.,Lower sound generation values while crouched.
+Advanced Enemy Detection & Stealth,"AI only detects the player based on proximity, making stealth ineffective.",Implement lighting awareness.,Reduce AI vision range in dark areas.
+Advanced Enemy Detection & Stealth,"AI only detects the player based on proximity, making stealth ineffective.",Add distraction mechanics such as thrown rocks.,Spawn sound events AI can investigate.
+Advanced Enemy Detection & Stealth,"AI only detects the player based on proximity, making stealth ineffective.",Simulate AI field of view.,Adjust AI FOV angles to create vision cones.
+More Dynamic Squad Behavior,AI squads act individually instead of coordinating tactics.,Assign squad leader roles.,Use a squad manager that issues commands.
+More Dynamic Squad Behavior,AI squads act individually instead of coordinating tactics.,Standard soldiers follow leader positioning.,Move AI relative to the squad leader.
+More Dynamic Squad Behavior,AI squads act individually instead of coordinating tactics.,Implement group awareness.,Alert nearby squadmates when one detects the player.
+More Dynamic Squad Behavior,AI squads act individually instead of coordinating tactics.,Add morale and retreat systems.,Track squad health and retreat below thresholds.
+Expanded Faction Dynamics & Reputation System,Factions always behave the same way and don’t react to the player’s choices.,Implement faction reputation.,Store player reputation values per faction.
+Expanded Faction Dynamics & Reputation System,Factions always behave the same way and don’t react to the player’s choices.,Allow factions to become friendly or hostile.,Switch AI states based on reputation score.
+Expanded Faction Dynamics & Reputation System,Factions always behave the same way and don’t react to the player’s choices.,Create faction alliances and rivalries.,Use relationship matrices between factions.
+Expanded Faction Dynamics & Reputation System,Factions always behave the same way and don’t react to the player’s choices.,Enable inter-faction combat or neutrality.,Check faction alignment before engagement.
+AI Adaptation & Learning,AI reacts the same way every time and doesn’t adapt to the player’s actions.,Implement evolving AI difficulty.,Increase AI aggression and tactics over time.
+AI Adaptation & Learning,AI reacts the same way every time and doesn’t adapt to the player’s actions.,Track player combat preferences.,Store player weapon usage patterns.
+AI Adaptation & Learning,AI reacts the same way every time and doesn’t adapt to the player’s actions.,Adapt AI tactics to player behavior.,Modify movement and attack logic dynamically.
+Environmental Awareness & Interaction,AI does not interact with the world beyond movement.,Allow AI looting behavior.,Use random search systems for item collection.
+Environmental Awareness & Interaction,AI does not interact with the world beyond movement.,Implement hazard avoidance.,Use Collision Nodes to detect dangerous zones.
+Environmental Awareness & Interaction,AI does not interact with the world beyond movement.,Enable AI interaction with world objects.,"Allow AI to open doors, use ladders, or activate alarms."
+Expanded AI VOX System (Dialogue & Audio),AI squads only have basic text-based dialogue.,Add dynamic VOX responses.,Play different voice lines based on AI state.
+Expanded AI VOX System (Dialogue & Audio),AI squads only have basic text-based dialogue.,Implement radio chatter between AI.,Trigger squad communication events.
+Expanded AI VOX System (Dialogue & Audio),AI squads only have basic text-based dialogue.,Add voice lines reacting to player actions.,Trigger context-sensitive dialogue events.
+Expanded AI VOX System (Dialogue & Audio),AI squads only have basic text-based dialogue.,Integrate Panda3D AudioSound.,Use AudioSound to play recorded dialogue dynamically.
+Expanded AI VOX System (Dialogue & Audio),AI squads only have basic text-based dialogue.,Create a VOX manager system.,Randomly select and play voice lines based on context.
+Final Thoughts,The AI system has strong faction mechanics and squad behaviors.,"Expand combat depth, AI adaptability, and faction interactions.",Iteratively improve systems through modular AI scripts.
