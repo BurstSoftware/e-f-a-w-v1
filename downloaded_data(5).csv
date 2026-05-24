@@ -1,0 +1,6 @@
+Feature,Description,Example
+Ranged Combat,AI fires bullets at player when in range.,AI now shoots instead of just chasing.
+Patrol Routes,AI squads follow patrol paths when neutral.,PMCs move between waypoints.
+Bullet System,AI and player fire moving projectiles.,AI bullets travel toward targets.
+Cover System (WIP),AI can move toward cover in combat.,PMCs avoid open spaces when under fire.
+Reinforcement Calls (WIP),AI can call backup if under attack.,Nearby squads respond to gunfire.
