@@ -1,0 +1,11 @@
+﻿,Functionality,Description,Example Use Case
+0,Player Detection,AI squads detect the player based on proximity and attacks.,PMCs turn hostile if the player attacks nearby.
+1,Faction System,AI belongs to different factions with unique behaviors.,Iron Reavers and Dust Vipers react differently.
+2,Squad-Based AI,AI units operate in squads and respond collectively.,A squad attacks together if provoked.
+3,Awareness Levels,AI knowledge changes based on witnessing or hearing events.,A PMC squad hears a gunshot and investigates.
+4,AI State Management,"AI switches between neutral, hostile, and investigating.",A squad remains neutral until it sees an attack.
+5,AI Movement & Chasing,Hostile squads move toward the player when aggressive.,"After being attacked, PMCs chase the player."
+6,AI Investigation,Neutral squads investigate attacks in their vicinity.,A squad moves toward a disturbance but does not attack immediately.
+7,Proximity-Based Reactions,AI squads react to events based on distance.,A squad 10m away witnesses an attack and turns hostile.
+8,AI Dialogue (Vox),AI squads speak lines based on their state.,"A PMC squad shouts, Hold the line! when attacking."
+9,AI Color Differentiation,Different factions have distinct colors for easy identification.,"Iron Reavers are red, and Dust Vipers are yellow."
