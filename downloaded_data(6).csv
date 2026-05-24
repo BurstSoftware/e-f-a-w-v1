@@ -1,0 +1,9 @@
+Section,Point,Description
+Summary of Changes,AI Shoots at Player,PMCs fire bullets instead of just chasing.
+Summary of Changes,Patrolling AI,Neutral PMCs follow patrol paths before engaging.
+Summary of Changes,Dynamic Combat,AI units take different actions based on range.
+Summary of Changes,Projectile Physics,Bullets move toward targets instead of instant hits.
+Next Features,Cover System,AI finds and moves to cover when under fire.
+Next Features,Reinforcement Calls,AI squads alert nearby allies when attacked.
+Next Features,Squad Tactics,AI will flank instead of blindly charging.
+Next Prompt Status,User Confirmation,Yes to continue improving AI systems.
