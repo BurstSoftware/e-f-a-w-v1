@@ -1,0 +1,10 @@
+Functionality,Description,Example Use Case
+Player Detection,AI detects the player based on line-of-sight & sound.,AI spots the player sneaking and reacts.
+Faction System,AI belongs to factions with changing reputation.,Helping a faction makes them friendly.
+Squad Leadership,AI squads have leaders that issue commands.,Leader directs troops to take cover.
+Awareness Levels,AI can hear or see player actions.,A gunshot alerts nearby PMCs.
+AI Movement & Chasing,AI moves toward the player if hostile.,A squad charges after seeing an attack.
+AI Investigation,AI searches last known player location if lost.,PMCs move toward where noise was heard.
+Cover Usage,AI moves to cover instead of standing in the open.,AI hides behind debris before shooting.
+Stealth Detection,AI reacts differently based on noise & visibility.,Crouching makes the player harder to see.
+AI Dialogue (VOX),AI squads use voice lines dynamically.,PMCs shout warnings before attacking.
