@@ -1,0 +1,6 @@
+Feature,Description,Example Use Case
+Ranged Combat,AI shoots at the player instead of just chasing.,Enemies fire at the player from distance instead of rushing.
+Patrol Routes,AI squads patrol an area instead of standing still.,Guard units walk between waypoints in a zone.
+Improved Cover System,AI moves between cover points during combat.,NPCs take cover behind objects while under fire.
+Reinforcement Calls,"If a squad is attacked, they can call backup from another squad.",Nearby squads join the fight after hearing gunfire.
+Better Tactical Movement,AI uses flanking and suppression instead of charging.,Enemies split and attack from multiple angles.
